@@ -135,8 +135,6 @@ Contact
 
 Harsh Rajvardhan
 
-Website: https://www.harshstackdev.me/
-
 LinkedIn: https://www.linkedin.com/in/harshrajvardhan
 
 GitHub: https://github.com/meharshrajvardhan
