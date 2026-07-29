@@ -30,9 +30,8 @@
     <h1 class="hero-name">Harsh<br><em>Rajvardhan</em><br>Gupta</h1>
     <p class="hero-title">// Java Backend Developer · Spring Boot · REST APIs</p>
     <p class="hero-bio">
-      MCA student building secure, scalable backend systems with Java 21 and Spring Boot.
-      Five years of enterprise operations experience in fintech, telecom, and e-commerce
-      gives me a unique edge in understanding real-world business systems.
+      Aspiring Software Developer building secure, scalable RESTful APIs with Java 21,
+      Spring Boot, Hibernate, and PostgreSQL.
     </p>
     <div class="hero-actions">
       <a href="#projects" class="btn-primary">View Projects</a>
@@ -42,16 +41,12 @@
   <div class="hero-right">
     <div class="hero-stats">
       <div class="stat-card">
-        <div class="stat-number">5+</div>
-        <div class="stat-label">Years Enterprise Ops</div>
-      </div>
-      <div class="stat-card">
         <div class="stat-number">15+</div>
         <div class="stat-label">API Endpoints Built</div>
       </div>
       <div class="stat-card">
-        <div class="stat-number">2</div>
-        <div class="stat-label">Full-Stack Projects</div>
+        <div class="stat-number">3</div>
+        <div class="stat-label">Backend Projects</div>
       </div>
       <div class="stat-card">
         <div class="stat-number">8.57</div>
@@ -77,6 +72,8 @@
         <span class="skill-tag">Java 21</span>
         <span class="skill-tag">SQL</span>
         <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">C</span>
+        <span class="skill-tag">C++</span>
       </div>
     </div>
     <div class="skill-group">
@@ -94,8 +91,7 @@
       <div class="skill-tags">
         <span class="skill-tag">PostgreSQL</span>
         <span class="skill-tag">MySQL</span>
-        <span class="skill-tag">Query Optimization</span>
-        <span class="skill-tag">Indexing</span>
+        <span class="skill-tag">H2 Database</span>
       </div>
     </div>
     <div class="skill-group">
@@ -114,8 +110,10 @@
       <div class="skill-tags">
         <span class="skill-tag">Git & GitHub</span>
         <span class="skill-tag">Maven</span>
-        <span class="skill-tag">Docker (basics)</span>
-        <span class="skill-tag">Linux CLI</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">Azure Container Apps</span>
+        <span class="skill-tag">Azure Container Registry</span>
+        <span class="skill-tag">Render</span>
       </div>
     </div>
     <div class="skill-group">
@@ -123,9 +121,9 @@
       <div class="skill-tags">
         <span class="skill-tag">OOP</span>
         <span class="skill-tag">Microservices</span>
-        <span class="skill-tag">DSA</span>
-        <span class="skill-tag">Multithreading</span>
-        <span class="skill-tag">Azure Fundamentals</span>
+        <span class="skill-tag">Layered Architecture</span>
+        <span class="skill-tag">Role-Based Access Control</span>
+        <span class="skill-tag">Microsoft Azure</span>
         <span class="skill-tag">Agile</span>
       </div>
     </div>
@@ -203,27 +201,54 @@
 </div>
 
     <div class="project-card">
-      <div class="project-num">02 / Backend System</div>
-      <h3 class="project-title">Employee Payroll Management System</h3>
+      <div class="project-num">02 / AI &amp; Healthcare</div>
+      <h3 class="project-title">CareFlow AI Agent</h3>
       <p class="project-desc">
-        A secure, scalable backend for managing employee records and payroll operations
-        with comprehensive CRUD capabilities and enterprise-grade security.
+        Healthcare appointment and lead-management solution combining a Java and Spring Boot
+        backend with a Tars conversational workflow and Salesforce-ready lead capture.
       </p>
       <ul class="project-highlights">
-        <li>10+ CRUD API endpoints handling 200+ employee records end-to-end</li>
-        <li>JWT authentication with Spring Security role-based access control</li>
-        <li>PostgreSQL integration with Hibernate/JPA for relational data mapping</li>
-        <li>Clean architecture principles improving scalability and API performance</li>
-        <li>End-to-end tested with Postman across all endpoints</li>
+        <li>Answers patient queries about clinic locations, timings, services, fees, and appointment availability</li>
+        <li>Collects patient and appointment details through REST APIs and a responsive chat interface</li>
+        <li>Classifies new or existing patients and categorizes leads as Hot, Warm, or Cold</li>
+        <li>Uses H2 locally and Neon PostgreSQL for cloud data persistence</li>
+        <li>Containerized with Docker and deployed publicly on Render</li>
+        <li>Tars workflow captures conversation details for Salesforce Sales Cloud lead follow-up</li>
+      </ul>
+      <div class="project-stack">
+        <span class="stack-tag">Java 17</span>
+        <span class="stack-tag">Spring Boot</span>
+        <span class="stack-tag">REST APIs</span>
+        <span class="stack-tag">H2</span>
+        <span class="stack-tag">Neon PostgreSQL</span>
+        <span class="stack-tag">Tars</span>
+        <span class="stack-tag">Salesforce</span>
+        <span class="stack-tag">Docker</span>
+        <span class="stack-tag">Render</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-num">03 / Backend API</div>
+      <h3 class="project-title">High-Performance URL Shortener API</h3>
+      <p class="project-desc">
+        Backend application that generates unique short URLs and redirects users reliably
+        to their original web addresses.
+      </p>
+      <ul class="project-highlights">
+        <li>Built REST APIs for URL creation, retrieval, redirection, and management</li>
+        <li>Integrated PostgreSQL persistence using Spring Data JPA and Hibernate</li>
+        <li>Added validation and exception handling for reliable URL management</li>
+        <li>Tested endpoints with Postman and managed dependencies using Maven</li>
       </ul>
       <div class="project-stack">
         <span class="stack-tag">Java 21</span>
         <span class="stack-tag">Spring Boot</span>
-        <span class="stack-tag">Spring Security</span>
-        <span class="stack-tag">PostgreSQL</span>
-        <span class="stack-tag">JWT</span>
-        <span class="stack-tag">REST APIs</span>
+        <span class="stack-tag">Spring Data JPA</span>
         <span class="stack-tag">Hibernate</span>
+        <span class="stack-tag">PostgreSQL</span>
+        <span class="stack-tag">REST APIs</span>
+        <span class="stack-tag">Maven</span>
       </div>
     </div>
 
@@ -249,20 +274,6 @@
       </ul>
     </div>
 
-    <div class="exp-item">
-      <div class="exp-header">
-        <div class="exp-role">Customer Operations & Order Management</div>
-        <div class="exp-date">Feb 2017 – Oct 2023</div>
-      </div>
-      <div class="exp-company">MoneyView · Myntra · Medlife · AT&T</div>
-      <ul class="exp-points">
-        <li>Managed end-to-end O2C lifecycle — order processing, billing, collections — across fintech, e-commerce, and telecom domains</li>
-        <li>Worked with enterprise tools: CRM, ERP, Salesforce, and Oracle OMS</li>
-        <li>Coordinated with vendors and logistics; handled escalation resolution and payment follow-ups</li>
-        <li>Developed strong cross-functional communication and analytical skills across fast-paced business teams</li>
-      </ul>
-    </div>
-
   </div>
 </section>
 
@@ -273,11 +284,6 @@
   <div class="edu-cert-grid">
 
     <div>
-      <div class="edu-item">
-        <div class="edu-degree">Master of Computer Applications<br>(MCA in Cloud Computing)</div>
-        <div class="edu-school">Chandigarh University</div>
-        <div class="edu-meta">2025 – Present &nbsp;·&nbsp; Bangalore, India</div>
-      </div>
       <div class="edu-item">
         <div class="edu-degree">Bachelor of Computer Applications (BCA)</div>
         <div class="edu-school">Chandigarh University</div>
@@ -294,10 +300,24 @@
         </div>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">HR</div>
+        <div class="cert-icon">SAP</div>
         <div>
-          <div class="cert-name">Problem Solving &amp; Java</div>
-          <div class="cert-issuer">HackerRank · Apr 26, 2026</div>
+          <div class="cert-name">Discovering SAP BTP &amp; SAP Build Process Automation</div>
+          <div class="cert-issuer">SAP</div>
+        </div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-icon">AI</div>
+        <div>
+          <div class="cert-name">Introduction to Modern AI &amp; Data Analytics Essentials</div>
+          <div class="cert-issuer">Cisco Networking Academy</div>
+        </div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-icon">JM</div>
+        <div>
+          <div class="cert-name">Java Masterclass 2025: 130+ Hours</div>
+          <div class="cert-issuer">Udemy</div>
         </div>
       </div>
       <div class="cert-item">
@@ -320,8 +340,7 @@
     <div class="contact-info">
       <p>
         I'm actively looking for backend developer roles where I can apply my Java and Spring Boot
-        skills. My operations background gives me a strong understanding of real-world business
-        systems — I'm not just a coder, I understand the problems behind the code.
+        skills to build secure, reliable, and scalable enterprise applications.
       </p>
       <div class="contact-links">
         <a class="contact-link" href="mailto:harsh_rajvardhangupta@hotmail.com">
